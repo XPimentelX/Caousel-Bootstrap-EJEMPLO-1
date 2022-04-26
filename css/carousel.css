@@ -1,0 +1,36 @@
+
+body{
+    background-color: blanchedalmond;
+}
+article{
+    width: 100%;
+    margin-top: 10px;
+    flex-wrap: wrap;
+
+}
+.container1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 400px;
+    justify-content: center;
+}
+.subcontainer2{
+    padding: 10px 10px;
+    width: 100vh;
+    text-align: justify;
+}
+#carouselExampleSlidesOnly{
+    border: 2px solid black;
+}
+
+ol{
+   padding: 10px 10px;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
